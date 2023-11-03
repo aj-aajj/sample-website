@@ -1,0 +1,77 @@
+
+body{
+    overflow: hidden;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    border-bottom: 3px solid yellow;
+}
+.navbar-custom {
+    background-color: #162338;
+}
+.navbar-brand{
+    font-size: 50px;
+}
+.navbar-nav a{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    }
+.navbar-light{
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    }
+.navbar-light:hover{
+        color: gray;
+}
+
+.navbar-light .navbar-nav .navbar-link{
+            color: white;
+}
+.navbar-toggler .navbar-toggler-icon
+.collapsed{
+    color:white;
+}
+
+#carouselExampleCaptions{
+    border-bottom: 3px solid yellow;
+}
+
+.card .card-body .card-title{
+    background-color: blue;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: white;
+    color: black;
+    }
+ #myIframe{
+    width: 100%;
+      height: 100%;
+ }
+@media only screen and (max-width: 991px){
+    .navbar-nav{
+    text-align: center;
+}
+.events{
+ padding-bottom: 30px;
+}
+
+
+}
